@@ -807,7 +807,7 @@ address {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 42px;
+  padding-left: 30px;
   cursor: pointer;
   transition: border-color 2s, outline 2s;
 }
@@ -865,9 +865,9 @@ address {
   fill: var(--main-color);
 }
 .label-svg {
-  position: relative;
+  position: absolute;
   top: 50%;
-  left: 30px;
+  left: 55px;
 }
 
 .modal-holder:focus,
