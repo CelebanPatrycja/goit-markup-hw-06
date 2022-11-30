@@ -80,36 +80,35 @@
                   </use> </svg> </button> 
                   <form name="signup_form" autocomplete="on" novalidate>
                     <p class="modal-text">Zostaw swoje dane w formularzu poniżej</p>
-          
                     <label class="modal-labels">
                       <span class="span-text">Imię</span>
+                      <input class="modal-holder" type="name" name="Imię" />
                       <svg class="label-svg " width="12" height="12">
                         <use
                           class="modal-formul-icons"
                           href="./images/icons.svg#icon-person"
                         ></use>
                       </svg>
-                      <input class="modal-holder" type="name" name="Imię" />
                     </label>
                     <label class="modal-labels">
                       <span class="span-text">Telefon</span>
+                      <input class="modal-holder" type="telephone" name="Telefon" />
                       <svg class="label-svg" width="13" height="13">
                         <use
                           class="modal-formul-icons"
                           href="./images/icons.svg#icon-phone"
                         ></use>
                       </svg>
-                      <input class="modal-holder" type="telephone" name="Telefon" />
                     </label>
                     <label class="modal-labels">
                       <span class="span-text">E-mail</span>
+                      <input class="modal-holder" type="password" name="password" />
                       <svg class="label-svg" width="15" height="12">
                         <use
                           class="modal-formul-icons"
                           href="./images/icons.svg#icon-mail"
                         ></use>
                       </svg>
-                      <input class="modal-holder" type="password" name="password" />
                     </label>
                     <label class="text-area-label">
                      <span class="coment">Komentarz</span>
@@ -122,7 +121,11 @@
                     </label>
                     <label class="check option">
                       <input class="check__input" type="checkbox" />
-                      <span class="check__box"></span>
+                      <svg class="check-box" width="16" height="15">
+                        <use
+                          href="./images/icons.svg#icon-icon-check"
+                        ></use>
+                      </svg>
                       Oświadczam iż akceptuję
                       <span class="blue-checkbox-text">Regulamin </span> i
                       <span class="blue-checkbox-text">Politykę Prywatności.</span>

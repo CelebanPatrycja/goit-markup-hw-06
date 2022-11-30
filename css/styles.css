@@ -794,6 +794,7 @@ address {
 
 .modal-formul-icons {
   position: absolute;
+  outline: none;
 }
 .modal-formul-icons:hover,
 .modal-formul-icons:focus {
@@ -810,8 +811,12 @@ address {
   padding-left: 30px;
   cursor: pointer;
   transition: border-color 2s, outline 2s;
+  font-size: 12px;
 }
-
+.modal-holder:hover + .label-svg,
+.modal-holder:focus + .label-svg {
+  fill: var(--main-color);
+}
 .text-area {
   width: 448px;
   height: 120px;
