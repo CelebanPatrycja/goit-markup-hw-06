@@ -119,18 +119,19 @@
                         placeholder="Wprowadź tekst"
                       ></textarea>
                     </label>
-                    <label class="check option">
-                      <input class="check__input" type="checkbox" />
-                      <svg class="check-box" width="16" height="15">
-                        <use
-                          href="./images/icons.svg#icon-icon-check"
-                        ></use>
-                      </svg>
-                      Oświadczam iż akceptuję
-                      <span class="blue-checkbox-text">Regulamin </span> i
-                      <span class="blue-checkbox-text">Politykę Prywatności.</span>
+                    <label class="check__option">
+                      <input class="check__input" type="checkbox" id="legal" /><span class="checkmark"
+                        ><svg class="check-box" width="11" height="8">
+                          <use xlink:href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                        <span>Oświadczam, iż akceptuję <a class="blue-checkbox-text" href="#">regulamin</a> i
+                          <a class="blue-checkbox-text" href="#">politykę prywatności</a></span
+                        ></span
+                      >
                     </label>
-                    <button class="button-submit" type="submit">Wyślij</button>
+                    <div class="agreement">
+                      <button class="button-submit" type="submit">Wyślij</button>
+                    </div>
                   </form>
                 </div>
           </div>
